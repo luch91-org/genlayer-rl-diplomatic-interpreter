@@ -1,0 +1,6 @@
+step=1 bucket=high action=draft#3 reward=7.0 polarization=0.55 elapsed=74s reason='Concrete compromise that gives A a real riverfront park and B a real m'
+step=2 bucket=medium action=draft#3 reward=8.0 polarization=0.37 elapsed=69s reason='It concretely gives Side A a real riverfront park and Side B mixed-use'
+step=3 bucket=low action=draft#5 reward=7.0 polarization=0.33 elapsed=23s reason='Fair compromise that splits the difference between park and developmen'
+step=4 bucket=low action=draft#5 reward=8.0 polarization=0.26 elapsed=26s reason='It offers a concrete middle path by naming both a riverfront park and '
+step=5 bucket=low action=draft#5 reward=8.0 polarization=0.23 elapsed=26s reason='The statement offers a fair compromise by splitting the parcel. Howeve'
+Live episode complete: 5 steps on studionet, episode_reward=38.0, per_step_avg=7.60, final_polarization=0.23
