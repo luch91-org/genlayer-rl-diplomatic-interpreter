@@ -1,0 +1,39 @@
+{
+  "tx_hash": "0xf6afecef452d2f101d80cece3c706c9aa4e9235955ab3cee676d06e837e05afa",
+  "elapsed_s": 34,
+  "status": 5,
+  "result_code": 6,
+  "leader_address": "0x3f7Fd3851c341549B7018a1A95C40aD111b683F3",
+  "leader_model": "policy:prd-gpt-5-4",
+  "leader_eq_payload": "\"{\\\"acceptance\\\": 9.0, \\\"reason\\\": \\\"It offers a concrete middle path meeting both park and housing goals, and at low polarization this concise consolidation of an already workable compromise fits the moment well.\\\"}\"",
+  "leader_result": "{\"acceptance_x100\":900,\"polarization_100\":15,\"reason\":\"It offers a concrete middle path meeting both park and housing goals, and at low polarization this concise consolidation of an already workable compromise fits the moment well.\",\"reward_x100\":900,\"round\":7}",
+  "votes_by_address": {
+    "0x20eAe82d47277F098B52F646eE790f1A6c80EbC2": "disagree",
+    "0x3f7Fd3851c341549B7018a1A95C40aD111b683F3": "agree",
+    "0x5091B80b386f2408B1c0195c13566F853932b297": "agree",
+    "0xcf0e260cC1fA2231242E50635100Be4d6579F29B": "agree",
+    "0xea43938cb19703B846D5eDac9bAa25Fc2c4F1c8A": "idle"
+  },
+  "validators": [
+    {
+      "address": "0x5091B80b386f2408B1c0195c13566F853932b297",
+      "model": "anthropic/claude-sonnet-4.6",
+      "vote": "agree"
+    },
+    {
+      "address": "0xcf0e260cC1fA2231242E50635100Be4d6579F29B",
+      "model": "policy:prd-mistral",
+      "vote": "agree"
+    },
+    {
+      "address": "0x20eAe82d47277F098B52F646eE790f1A6c80EbC2",
+      "model": "policy:prd-gpt-5-4",
+      "vote": "disagree"
+    },
+    {
+      "address": "0xea43938cb19703B846D5eDac9bAa25Fc2c4F1c8A",
+      "model": null,
+      "vote": "idle"
+    }
+  ]
+}
