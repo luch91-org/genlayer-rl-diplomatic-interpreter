@@ -9,10 +9,10 @@
   },
   "provenance": {
     "repo": "genlayer-rl-diplomatic-interpreter",
-    "commit": "6fb32fe",
+    "commit": "7eff941",
     "sdk": "genlayer-py >=0.18.0",
     "runner_pin": "py-genlayer:1jb45aa8ynh2a9c9xn3b7qqh8sm5q93hwfp7jqmwsfhh8jpz09h6",
-    "generated_at": "2026-07-06T13:59:33.248887+00:00"
+    "generated_at": "2026-07-07T11:27:09.432010+00:00"
   },
   "contract": {
     "address": "0xA5cf174b2fDC77058C181435040121711312EE15",
@@ -8042,6 +8042,133 @@
     }
   },
   "runs": [
+    {
+      "id": "policy-rollout",
+      "mode": "mock",
+      "label": "Trained policy, deterministic replay",
+      "episodes": [
+        {
+          "i": 1,
+          "steps": [
+            {
+              "i": 0,
+              "action": {
+                "id": "draft_3",
+                "label": "draft 4",
+                "args": {
+                  "type": "draft"
+                }
+              },
+              "state_before": {
+                "polarization": 0.8,
+                "round": 0,
+                "num_proposals": 0
+              },
+              "state_after": {
+                "polarization": 0.43,
+                "round": 1,
+                "num_proposals": 1
+              },
+              "reward": 9.38,
+              "reward_kind": "deterministic",
+              "reason": "compromise #3: both-sides acceptance ~9.4 at high polarization"
+            },
+            {
+              "i": 1,
+              "action": {
+                "id": "draft_5",
+                "label": "draft 6",
+                "args": {
+                  "type": "draft"
+                }
+              },
+              "state_before": {
+                "polarization": 0.43,
+                "round": 1,
+                "num_proposals": 1
+              },
+              "state_after": {
+                "polarization": 0.34,
+                "round": 2,
+                "num_proposals": 2
+              },
+              "reward": 7.44,
+              "reward_kind": "deterministic",
+              "reason": "compromise #5: both-sides acceptance ~7.4 at low polarization"
+            },
+            {
+              "i": 2,
+              "action": {
+                "id": "draft_5",
+                "label": "draft 6",
+                "args": {
+                  "type": "draft"
+                }
+              },
+              "state_before": {
+                "polarization": 0.34,
+                "round": 2,
+                "num_proposals": 2
+              },
+              "state_after": {
+                "polarization": 0.28,
+                "round": 3,
+                "num_proposals": 3
+              },
+              "reward": 7.73,
+              "reward_kind": "deterministic",
+              "reason": "compromise #5: both-sides acceptance ~7.7 at low polarization"
+            },
+            {
+              "i": 3,
+              "action": {
+                "id": "draft_5",
+                "label": "draft 6",
+                "args": {
+                  "type": "draft"
+                }
+              },
+              "state_before": {
+                "polarization": 0.28,
+                "round": 3,
+                "num_proposals": 3
+              },
+              "state_after": {
+                "polarization": 0.23,
+                "round": 4,
+                "num_proposals": 4
+              },
+              "reward": 8.15,
+              "reward_kind": "deterministic",
+              "reason": "compromise #5: both-sides acceptance ~8.1 at low polarization"
+            },
+            {
+              "i": 4,
+              "action": {
+                "id": "draft_5",
+                "label": "draft 6",
+                "args": {
+                  "type": "draft"
+                }
+              },
+              "state_before": {
+                "polarization": 0.23,
+                "round": 4,
+                "num_proposals": 4
+              },
+              "state_after": {
+                "polarization": 0.18,
+                "round": 5,
+                "num_proposals": 5
+              },
+              "reward": 8.59,
+              "reward_kind": "deterministic",
+              "reason": "compromise #5: both-sides acceptance ~8.6 at resolved polarization"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "live-capture",
       "mode": "live",
