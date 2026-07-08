@@ -9,10 +9,10 @@
   },
   "provenance": {
     "repo": "genlayer-rl-diplomatic-interpreter",
-    "commit": "7eff941",
+    "commit": "955db95",
     "sdk": "genlayer-py >=0.18.0",
     "runner_pin": "py-genlayer:1jb45aa8ynh2a9c9xn3b7qqh8sm5q93hwfp7jqmwsfhh8jpz09h6",
-    "generated_at": "2026-07-07T11:27:09.432010+00:00"
+    "generated_at": "2026-07-08T08:33:20.798937+00:00"
   },
   "contract": {
     "address": "0xA5cf174b2fDC77058C181435040121711312EE15",
@@ -8071,7 +8071,39 @@
               },
               "reward": 9.38,
               "reward_kind": "deterministic",
-              "reason": "compromise #3: both-sides acceptance ~9.4 at high polarization"
+              "reason": "compromise #3: both-sides acceptance ~9.4 at high polarization",
+              "policy": [
+                {
+                  "action": "draft 1",
+                  "q": 21.594,
+                  "chosen": false
+                },
+                {
+                  "action": "draft 2",
+                  "q": 21.418,
+                  "chosen": false
+                },
+                {
+                  "action": "draft 3",
+                  "q": 21.557,
+                  "chosen": false
+                },
+                {
+                  "action": "draft 4",
+                  "q": 21.921,
+                  "chosen": true
+                },
+                {
+                  "action": "draft 5",
+                  "q": 21.392,
+                  "chosen": false
+                },
+                {
+                  "action": "draft 6",
+                  "q": 21.588,
+                  "chosen": false
+                }
+              ]
             },
             {
               "i": 1,
@@ -8094,7 +8126,39 @@
               },
               "reward": 7.44,
               "reward_kind": "deterministic",
-              "reason": "compromise #5: both-sides acceptance ~7.4 at low polarization"
+              "reason": "compromise #5: both-sides acceptance ~7.4 at low polarization",
+              "policy": [
+                {
+                  "action": "draft 1",
+                  "q": 17.873,
+                  "chosen": false
+                },
+                {
+                  "action": "draft 2",
+                  "q": 19.094,
+                  "chosen": false
+                },
+                {
+                  "action": "draft 3",
+                  "q": 20.325,
+                  "chosen": false
+                },
+                {
+                  "action": "draft 4",
+                  "q": 20.372,
+                  "chosen": false
+                },
+                {
+                  "action": "draft 5",
+                  "q": 17.185,
+                  "chosen": false
+                },
+                {
+                  "action": "draft 6",
+                  "q": 21.144,
+                  "chosen": true
+                }
+              ]
             },
             {
               "i": 2,
@@ -8117,7 +8181,39 @@
               },
               "reward": 7.73,
               "reward_kind": "deterministic",
-              "reason": "compromise #5: both-sides acceptance ~7.7 at low polarization"
+              "reason": "compromise #5: both-sides acceptance ~7.7 at low polarization",
+              "policy": [
+                {
+                  "action": "draft 1",
+                  "q": 17.873,
+                  "chosen": false
+                },
+                {
+                  "action": "draft 2",
+                  "q": 19.094,
+                  "chosen": false
+                },
+                {
+                  "action": "draft 3",
+                  "q": 20.325,
+                  "chosen": false
+                },
+                {
+                  "action": "draft 4",
+                  "q": 20.372,
+                  "chosen": false
+                },
+                {
+                  "action": "draft 5",
+                  "q": 17.185,
+                  "chosen": false
+                },
+                {
+                  "action": "draft 6",
+                  "q": 21.144,
+                  "chosen": true
+                }
+              ]
             },
             {
               "i": 3,
@@ -8140,7 +8236,39 @@
               },
               "reward": 8.15,
               "reward_kind": "deterministic",
-              "reason": "compromise #5: both-sides acceptance ~8.1 at low polarization"
+              "reason": "compromise #5: both-sides acceptance ~8.1 at low polarization",
+              "policy": [
+                {
+                  "action": "draft 1",
+                  "q": 17.873,
+                  "chosen": false
+                },
+                {
+                  "action": "draft 2",
+                  "q": 19.094,
+                  "chosen": false
+                },
+                {
+                  "action": "draft 3",
+                  "q": 20.325,
+                  "chosen": false
+                },
+                {
+                  "action": "draft 4",
+                  "q": 20.372,
+                  "chosen": false
+                },
+                {
+                  "action": "draft 5",
+                  "q": 17.185,
+                  "chosen": false
+                },
+                {
+                  "action": "draft 6",
+                  "q": 21.144,
+                  "chosen": true
+                }
+              ]
             },
             {
               "i": 4,
@@ -8163,7 +8291,39 @@
               },
               "reward": 8.59,
               "reward_kind": "deterministic",
-              "reason": "compromise #5: both-sides acceptance ~8.6 at resolved polarization"
+              "reason": "compromise #5: both-sides acceptance ~8.6 at resolved polarization",
+              "policy": [
+                {
+                  "action": "draft 1",
+                  "q": 20.228,
+                  "chosen": false
+                },
+                {
+                  "action": "draft 2",
+                  "q": 19.055,
+                  "chosen": false
+                },
+                {
+                  "action": "draft 3",
+                  "q": 20.4,
+                  "chosen": false
+                },
+                {
+                  "action": "draft 4",
+                  "q": 21.07,
+                  "chosen": false
+                },
+                {
+                  "action": "draft 5",
+                  "q": 19.601,
+                  "chosen": false
+                },
+                {
+                  "action": "draft 6",
+                  "q": 22.64,
+                  "chosen": true
+                }
+              ]
             }
           ]
         }
